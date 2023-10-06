@@ -1,6 +1,6 @@
 CREATE DATABASE Fornecedores;
 
-CREATE TABLE FOR(
+CREATE TABLE FORN(
   ID int NOT NULL,
   NOME varchar(255),
   TEL int,
@@ -15,10 +15,13 @@ CREATE TABLE CONTATO(
   CONTATO varchar(255),
   FRIEND bool,
   NEGOCIAVEL bool,
-  FOREIGN KEY (ForID) REFERENCES FOR(ID)
+  FOREIGN KEY (ForID) REFERENCES FORN(ID)
 );
 
-INSERT INFO FOR VALUES 
-(1,'Lufix', ,'atacado03@lufix.com.br','PARAFUSOS',1),
-(2,''
-
+INSERT INTO FORN VALUES 
+(1,'Lufix',NULL ,'atacado03@lufix.com.br','PARAFUSOS',1),
+(2,'Dipal',NULL,'sintique@dipal.com.br','Parafusos',1),
+(3,'Alvaro Parafusos',NULL,'alvaroparafusosltda@gmail.com','Parafusos',1),
+(4, 'Palácio das Ferramentas',NULL,'edsonteixeira@palaciodasferramentas.com.br',1),
+(5, 'ROMATA',NULL, 'leonardo@romata.com.br',1),
+(6,'World Tools',NULL,'gabriel@worldtools.com.br',1);
