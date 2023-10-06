@@ -17,4 +17,8 @@ CREATE TABLE CONTATO(
   NEGOCIAVEL bool,
   FOREIGN KEY (ForID) REFERENCES FOR(ID)
 );
-  
+
+INSERT INFO FOR VALUES 
+(1,'Lufix', ,'atacado03@lufix.com.br','PARAFUSOS',1),
+(2,''
+
