@@ -24,7 +24,25 @@ INSERT INTO FORN VALUES
 (3,'Alvaro Parafusos',NULL,'alvaroparafusosltda@gmail.com','Parafusos',1),
 (4, 'Palácio das Ferramentas',NULL,'edsonteixeira@palaciodasferramentas.com.br','Ferramentas',1),
 (5, 'ROMATA',NULL, 'leonardo@romata.com.br','Ferramentas',1),
-(6,'World Tools',NULL,'gabriel@worldtools.com.br','Ferramentas',1);
+(6,'World Tools',NULL,'gabriel@worldtools.com.br','Ferramentas',1),
+(7,'Fortfer',null,'vendas@fortferferramentas.com.br','Pastilhas',1),
+(8,'Digalvez',null,'vendas@digalvez.com.br','Pastilhas',1),
+(9, 'Normadin',null,'comercial@normadin.com.br','Molas',1),
+(10,'ChapMol',null,'contato@chapmol.com.br','Molas',1),
+(11,'Anhanguera',null,'liliam.caetano@anhangueraferramentas.com.br','Ferramentas',1),
+(12,'Ultracorte',null,'sofia@ultracorte.com.br','Ferramentas',1),
+(13,'FatiFerramentas',null,'vanusa@fatiferramentas.com.br','Ferramentas',1),
+(14,'TecnoFerramentas',null,'vendas5@tecnoferramentas.com.br','Ferramentas',1),
+(15,'Piveta',null,'atendimento2@pivetamaqfer.com.br','Ferramentas',1),
+(16,'Wodonis',null,'vendas@wodonis.com.br','Ferramentas',1),
+(17,'Sipar',null,'atendimento@siparferramentas.com.br','Ferramentas',1),
+(18,'Pull Rolamentos',null,'renato@pullrolamentos.com.br','Rolamentos',1),
+(19,'Durão',null,'eduardo.diez@durao.com.br','Rolamentos',1),
+(20,'Rolimac',null,'ana.rp@rolimac.com.br','Rolamentos',1),
+(21,'Vedabras',null,'mauricio@vedabras.com.br','Vedamentos',1),
+(22,'Imdepa',null,'gerente@ayrosa.com.br','Rolamentos',1),
+(23,'Roller Group',null,'rodrigo.bolanho@rollergroup.com.br','Rolamentos',1);
+
 
 INSERT INTO CONTATO VALUES
 (1,'Carol',0,1),
