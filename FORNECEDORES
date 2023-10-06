@@ -1,0 +1,20 @@
+CREATE DATABASE Fornecedores;
+
+CREATE TABLE FOR(
+  ID int NOT NULL,
+  NOME varchar(255),
+  TEL int,
+  EMAIL varchar(255),
+  ATUAÇÃO varchar(255),
+  STATUS int,
+  PRIMARY KEY (ID)
+);
+
+CREATE TABLE CONTATO(
+  ForID int NOT NULL,
+  CONTATO varchar(255),
+  FRIEND bool,
+  NEGOCIAVEL bool,
+  FOREIGN KEY (ForID) REFERENCES FOR(ID)
+);
+  
