@@ -19,9 +19,22 @@ CREATE TABLE CONTATO(
 );
 
 INSERT INTO FORN VALUES 
-(1,'Lufix',NULL ,'atacado03@lufix.com.br','PARAFUSOS',1),
+(1,'Lufix',NULL ,'atacado03@lufix.com.br','Parafusos',1),
 (2,'Dipal',NULL,'sintique@dipal.com.br','Parafusos',1),
 (3,'Alvaro Parafusos',NULL,'alvaroparafusosltda@gmail.com','Parafusos',1),
-(4, 'Palácio das Ferramentas',NULL,'edsonteixeira@palaciodasferramentas.com.br',1),
-(5, 'ROMATA',NULL, 'leonardo@romata.com.br',1),
-(6,'World Tools',NULL,'gabriel@worldtools.com.br',1);
+(4, 'Palácio das Ferramentas',NULL,'edsonteixeira@palaciodasferramentas.com.br','Ferramentas',1),
+(5, 'ROMATA',NULL, 'leonardo@romata.com.br','Ferramentas',1),
+(6,'World Tools',NULL,'gabriel@worldtools.com.br','Ferramentas',1);
+
+INSERT INTO CONTATO VALUES
+(1,'Carol',0,1),
+(2,'Sintique',0,0),
+(3,'Juliana',0,0),
+(4,'Edson',1,1),
+(5,'Leonardo',0,0),
+(6,'Gabriel',0,1);
+
+SELECT NOME, EMAIL, ATUAÇÃO, CONTATO, FRIEND, NEGOCIAVEL
+FROM FORN
+JOIN CONTATO ON forn.id=contato.forid
+WHERE ATUAÇÃO = 'Parafusos';
